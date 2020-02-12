@@ -6,6 +6,7 @@ class Shoe
     @brand = brand
   end
   def cobble
+    old == new
     puts "Shoe has been reparied!"
   end
 end
